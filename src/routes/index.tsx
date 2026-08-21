@@ -133,7 +133,7 @@ function Index() {
               height={799}
               fetchPriority="high"
               className="h-auto w-[var(--logo-w)] [--logo-w:min(74vw,300px)] md:[--logo-w:min(430px,42vw)]"
-              style={{ marginBottom: "calc(var(--logo-w) * -0.5)" }}
+              style={{ marginBottom: "calc(var(--logo-w) * -0.44)" }}
             />
 
             <h1 className="mt-2 text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
