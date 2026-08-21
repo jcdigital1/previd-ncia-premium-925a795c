@@ -129,9 +129,11 @@ function Index() {
             <img
               src={LOGO}
               alt="Jéssica Rodrigues Advocacia — Advocacia Previdenciária"
-              width={1040}
-              height={1040}
-              className="h-auto w-[min(86vw,430px)] md:w-[min(520px,45vw)]"
+              width={450}
+              height={799}
+              fetchPriority="high"
+              className="h-auto w-[var(--logo-w)] [--logo-w:min(74vw,300px)] md:[--logo-w:min(430px,42vw)]"
+              style={{ marginBottom: "calc(var(--logo-w) * -0.5)" }}
             />
 
             <h1 className="mt-2 text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
